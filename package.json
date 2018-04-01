@@ -1,0 +1,34 @@
+{
+  "name": "node-webworker",
+  "version": "0.1.0",
+  "description": "Executes web workers scripts on Node.js",
+  "main": "nodeWebWorker.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "lint": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rciszek/node-webworker.git"
+  },
+  "keywords": [
+    "WebWorkers"
+  ],
+  "author": "rciszek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rciszek/node-webworker/issues"
+  },
+  "homepage": "https://github.com/rciszek/node-webworker#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.1.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {
+    "uglify-es": "^3.3.9"
+  }
+}
