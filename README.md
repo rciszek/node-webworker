@@ -1,4 +1,4 @@
-# node-webworker
+# node-webworker-wrapper
 Wraps WebWorker scripts for execution on Node.js.
 
 ## Installation
