@@ -2,7 +2,7 @@
   "name": "node-webworker",
   "version": "0.1.0",
   "description": "Executes web workers scripts on Node.js",
-  "main": "nodeWebWorker.js",
+  "main": "src/nodeWebWorker.js",
   "scripts": {
     "test": "mocha --reporter spec",
     "lint": "gulp lint"
@@ -27,8 +27,5 @@
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1",
     "mocha": "^5.0.5"
-  },
-  "dependencies": {
-    "uglify-es": "^3.3.9"
   }
 }
