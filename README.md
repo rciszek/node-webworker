@@ -1,5 +1,5 @@
 # node-webworker-wrapper
-Wraps WebWorker scripts for execution on Node.js.
+Wraps WebWorker scripts for execution on Node.js, enabling reuse of existing browser workers on Node.js. The wrapped workers are executed nonparallel.
 
 ## Installation
 ```
